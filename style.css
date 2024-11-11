@@ -12,6 +12,10 @@ ul {
      
   
   }
+p{
+    border: 0.2REM dotted black;
+}
+
   body{
     background: linear-gradient(to right, white, #feb47b);
 
@@ -25,8 +29,11 @@ ul {
   }
   img{height: 300px;
   width: auto;}
-  table, th, td { background-color: burlywood;
+  table, td { background-color: burlywood;
       border:1px solid black;}
+      table, th{
+        background-color: crimson;
+      }
       ul {
         list-style-type: none;
         margin: 5rem;
@@ -58,4 +65,15 @@ ul {
         text-decoration: underline;
         font-weight: bold;
     }
-   
+   footer{
+    display: flex;
+    margin: 0rem 5rem;
+    font-size: 1.5rem;
+
+   }
+   footer P{
+    margin-left: 30rem;
+   }
+   footer h5{
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;   }
