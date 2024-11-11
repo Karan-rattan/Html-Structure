@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    margin: 5rem;
+    padding:0px;
+    overflow: hidden;
+  }
+  
+  .navbar {
+    display: ruby;
+  }
+  #info{margin-left: 30rem; 
+     
+  
+  }
+  body{
+    background: linear-gradient(to right, white, #feb47b);
+
+  }
+  #edu{
+      background-color: grey;
+  }
+  a:hover {
+    background-color: yellow;
+    font-size: 18px;
+  }
+  img{height: 300px;
+  width: auto;}
+  table, th, td {
+      border:1px solid black;}
+      ul {
+        list-style-type: none;
+        margin: 5rem;
+        padding:0px;
+        overflow: hidden;
+      }
+      
+      .navbar {
+        display: ruby;
+      }
+      #info{margin-left: 30rem; 
+          background-color: grey;
+      
+      }
+      a:hover {
+        background-color: yellow;
+        font-size: 18px;
+      }
+      img{height: 400px;
+      width: auto;}
+      #first{
+          display: ruby;
+      }
+      h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+   
