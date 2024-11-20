@@ -43,21 +43,11 @@
       </tr>
       
     </table>
-    <Ul>
-      <li>1</li>
-    
-      <li>2</li>
-      <li>3</li>
-<li>4</li>
-<li>5</li>
-<li>6</li>
-<li>7</li>
-<li>8</li>
-<li>9</li>
-<li>10</li>
-<li>11</li>
-<li>12</li>
-    </Ul>
+
+    <ul>
+      <h3>Lets display Odd/Even Numbers</h3>
+      <li id="numbers"></li>
+    </ul>
     <footer id="footer"> <footer id="footer">
        
       <button type="button" onclick="displayDate()" id="button">Show date</button>
@@ -66,6 +56,20 @@
     
 
 </footer></footer>
+<script>window.onload = getGreeting;
+  //to display Odd/Even numbers
+  function displayEvenOdd() {
+      let output = '';  
+      for (let i = 1; i <= 12; i++) {
+          if (i % 2 === 0) {
+              output += `${i} is Even<br>`;
+          } else {
+              output += `${i} is Odd<br>`;
+          }
+      }
+      document.getElementById("numbers").innerHTML = output;
+  }
+  window.onload = displayEvenOdd;</script>
     
 
     

@@ -11,6 +11,7 @@ function displayDate(){
 function getGreeting() {
     const currentHour = new Date().getHours();
     let greetingMessage;
+
     if (currentHour >= 5 && currentHour < 12) {
         greetingMessage = "Good Morning viewers";
     } else if (currentHour >= 12 && currentHour < 18) {
