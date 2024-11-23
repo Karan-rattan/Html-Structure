@@ -2,9 +2,11 @@
 //to get alert message
 function showAlert(){
     alert("Welcome to my Website click Close to proceed");
+    console.log("Alert has been closed");
 }
 //to show current date and time 
-function displayDate(){
+function displayDate()
+{console.log("Current date and time: ", currentDate); 
     document.getElementById('cdate').innerHTML = Date();
 }
 //to get greeting message according to time 
@@ -19,7 +21,11 @@ function getGreeting() {
     } else {
         greetingMessage = "Good Evening viewers";
     }
+    console.log("Greeting message: ", greetingMessage);
     document.getElementById("greeting").innerHTML = greetingMessage;
 }
-window.onload = getGreeting;
+window.onload = function() {
+    console.log("Window loaded, displaying greeting..."); 
+    getGreeting();
+};
 
